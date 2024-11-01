@@ -3,7 +3,7 @@ import axios from "axios";
 
 const initialState = {
   isAuthenticated: false,
-  isLoading: false,
+  isLoading: true,
   user: null,
 };
 
@@ -24,7 +24,7 @@ export const registerUser = createAsyncThunk(
 );
 
 export const loginUser = createAsyncThunk(
-  "/auth/login",
+  "/auth/signin",
 
   async (formData) => {
     const response = await axios.post(
@@ -131,5 +131,5 @@ const authSlice = createSlice({
   },
 });
 
-export const {setUser} = authSlice.actions;
+export const { setUser } = authSlice.actions;
 export default authSlice.reducer;
