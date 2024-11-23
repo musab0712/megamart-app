@@ -1,3 +1,3 @@
 export default function AdminSidebar() {
-  return <div>AdminSidebar</div>;
+  return <div>AdminSidebar ok</div>;
 }
