@@ -52,10 +52,10 @@ export default function Navbar() {
           width={40}
           height={40}
           className="h-8 w-8 rounded-full"
-          src="https://i.pravatar.cc/150?img=52"
+          src="https://i.pravatar.cc/150?img=52"  
           alt="avatar-img"
         />
       </section>
-    </div>
+    </div> 
   );
 }
