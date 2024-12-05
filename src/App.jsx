@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
 import AuthLayout from "./components/auth/layout";
 import Signin from "./pages/auth/signin";
 import Signup from "./pages/auth/signup";
@@ -37,7 +36,6 @@ function App() {
 
   return (
     <>
-      <Navbar />
 
       <Routes>
         <Route
