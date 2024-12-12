@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import bannerOne from "../../assets/banner-1.webp";
-import bannerTwo from "../../assets/banner-2.webp";
+//import bannerTwo from "../../assets/banner-2.webp";
 import bannerThree from "../../assets/banner-3.webp";
 import {
   Airplay,
@@ -54,7 +54,7 @@ function ShoppingHome() {
   );
   // const { featureImageList } = useSelector((state) => state.commonFeature);
 
-const featureImageList = [{image: bannerOne}, {image: bannerTwo}, {image: bannerThree}]
+const featureImageList = [{image: bannerOne}, {image: bannerThree}]
 
   const [openDetailsDialog, setOpenDetailsDialog] = useState(false);
 
